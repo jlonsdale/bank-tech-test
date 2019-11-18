@@ -35,7 +35,7 @@
   🔴BankPrinter object ➡️ Handles printing the bank details in a pleasing format
 
   methods:
-  -.view_log(array) where array is an array of BankHistory objects
+  - .view_log(array) where array is an array of BankHistory objects
 
 ## Edge Cases
 
