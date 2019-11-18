@@ -6,7 +6,7 @@ describe BankHistory do
 
   it 'initializes with a date' do
     allow(Time).to receive(:now).and_return(Time.mktime(2000,"jan",1))
-    expect(bank_history.date).to eq "01/01/2000"
+    expect(bank_history.date).to eq Time.mktime(2000,"jan",1)
   end
 
   it 'initializes with a balance' do

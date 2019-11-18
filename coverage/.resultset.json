@@ -142,17 +142,18 @@
         1,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        2,
+        2,
+        1,
         null,
-        0,
+        1,
         null,
-        0,
+        2,
         null,
-        0,
+        1,
+        null,
         null,
         null
       ],
@@ -181,8 +182,24 @@
         null,
         null,
         null
+      ],
+      "/Users/jessielonsdale/bank-tech-test/spec/bank_printer_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        2,
+        2,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1574079574
+    "timestamp": 1574082334
   }
 }

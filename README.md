@@ -19,13 +19,23 @@
   🔴BankAccount object ➡️ Handles withdrawing money, depositing money and storing the history of actions
 
   methods:
+  - .new (take no arguments)
   - .deposit(amount)
   - .withdraw(amount)
   - .view
 
   🔴BankHistory object ➡️ Represents a single action of the user, stores date and details about the action
 
+  methods:
+  - .new(action, amount, balance)
+      - action : a string that represents if the action is 'credit' or 'debit'
+      - amount : the numerical amount for the action
+      - balance : the total balance after the action has taken place
+
   🔴BankPrinter object ➡️ Handles printing the bank details in a pleasing format
+
+  methods:
+  -.view_log(array) where array is an array of BankHistory objects
 
 ## Edge Cases
 

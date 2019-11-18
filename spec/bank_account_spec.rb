@@ -1,7 +1,7 @@
 require 'bank_account'
 
 describe BankAccount do
-  
+
   let(:printer) {double :printer}
   let(:printer_class) {double :printer_class, new: printer}
   subject(:account) {described_class.new}

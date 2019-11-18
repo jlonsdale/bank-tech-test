@@ -3,7 +3,7 @@ class BankPrinter
   def view_log(array)
     output = "|| date || credit || debit || balance ||"+"\n"
     array.each do |n|
-      output+="#{n.date} "
+      output+="#{n.date.strftime("%d/%m/%Y")} "
       if(n.action=='credit')
         output+="|| #{sprintf("%0.2f",n.amount)} || || "
       else
@@ -13,4 +13,5 @@ class BankPrinter
     end
     output
   end
+
 end
