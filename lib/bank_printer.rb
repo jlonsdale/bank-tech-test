@@ -5,11 +5,11 @@ class BankPrinter
     array.each do |n|
       output+="#{n.date} "
       if(n.action=='credit')
-        output+="|| #{n.amount} || || "
+        output+="|| #{sprintf("%0.2f",n.amount)} || || "
       else
-        output+="|| || #{n.amount} || "
+        output+="|| || #{sprintf("%0.2f",n.amount)} || "
       end
-      output+="#{n.balance}"+"\n"
+      output+="#{sprintf("%0.2f",n.balance)}"+"\n"
     end
     output
   end

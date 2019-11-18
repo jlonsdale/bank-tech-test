@@ -33,8 +33,8 @@ class BankAccount
   def record_action(action,amount)
     bank_action = @bank_history_class.new(
     action: action,
-    amount: sprintf("%0.2f",amount),
-    balance: sprintf("%0.2f",@balance))
+    amount: amount,
+    balance: @balance)
     @log.push(bank_action)
   end
 
