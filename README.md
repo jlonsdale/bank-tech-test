@@ -14,8 +14,8 @@
 
 ## Object Creation
 
-  🔴BankAccount object : (Handles withdrawing money, depositing money and storing the history of actions)
+  🔴BankAccount object ➡️ Handles withdrawing money, depositing money and storing the history of actions
 
-  🔴BankHistory object : (Represents a single action of the user, stores date and details about the action)
+  🔴BankHistory object ➡️ Represents a single action of the user, stores date and details about the action
 
-  🔴BankPrinter object : (Handles printing the bank details in a pleasing format)
+  🔴BankPrinter object ➡️ Handles printing the bank details in a pleasing format
