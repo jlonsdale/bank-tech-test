@@ -10,7 +10,7 @@
   
   🔴require_relative 'lib/bank_account.rb'
   
-  
+  (https://github.com/jlonsdale/bank-tech-test/blob/master/screenshot.png)
 
   🔴create a new account with my_account = BankAccount.new
 
