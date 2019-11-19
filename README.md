@@ -6,7 +6,11 @@
 
   🔴run tests with command rspec
 
-  🔴run program with command ruby lib/bank_account
+  🔴run irb
+  
+  🔴require_relative 'lib/bank_account.rb'
+  
+  
 
   🔴create a new account with my_account = BankAccount.new
 
