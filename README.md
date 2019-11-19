@@ -9,12 +9,12 @@
   🔴run irb
   
   🔴require_relative 'lib/bank_account.rb'
-  
-  (https://github.com/jlonsdale/bank-tech-test/blob/master/screenshot.png)
 
   🔴create a new account with my_account = BankAccount.new
 
   🔴now you are able to run all commands on your BankAccount, such as: .deposit, .withdraw and .view'
+  
+   ![ScreenShot](https://github.com/jlonsdale/bank-tech-test/blob/master/screenshot.png)
 
 # Plan
 
